@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+     font-family: "Ubuntu", sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 70px;
+}
+header{
+    background-color: white;
+}
+header a{
+    text-decoration: none;
+    color: black;
+
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+header .left-side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+header .right-side{
+  
+     margin-right: 150px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(155, 132, 213);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;  
+}
+main .container{
+    
+    padding: 25px;
+    margin: 20px  auto;
+    border-radius: 25px;
+    
+    
+
+    
+}
+img{
+
+    max-width: 250px;
+    border-radius: 25px;
+    
+
+}
+   
+section .row{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    text-align: center;
+}
+.row h1{
+   padding: 20px;
+   font-size: 60px;
+}
+.row h4{
+    display: inline-block;
+    margin-right: 325px;
+    background-color: rgb(155, 132, 213);
+    color: white;
+    border-radius: 5px;
+    padding: 3px 10px;
+    width: auto;
+    
+}
+
+.lower{
+    display: flex;
+    justify-content:center;
+    margin-right:350px;
+    gap: 20px;
+}
+.box{
+    background-color: rgb(218, 216, 216);
+    color: rgb(63, 61, 58);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    
+}
+ .about .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.about .container{
+    padding: 100px;
+    margin: 70px;
+}
+.about h1{
+    padding: 25px;
+    font-size: 50px;
+}
+.qveda{
+    padding: 25px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+ .purple{
+    background-color:rgb(155, 132, 213);
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: auto;
+    color: white;
+    
+}
+.white{
+     background-color: white;
+     border-radius: 5px;
+     padding: 5px 15px;
+     width: auto;
+     color: rgb(124, 106, 141);
+
+}
+.about i{
+    background-color: rgb(234, 237, 240);
+    color: blueviolet;
+    padding: auto 20px;
+    font-size: 25px;
+    
+    
+}
+
